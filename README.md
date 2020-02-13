@@ -11,7 +11,7 @@ for using this image:
 This image is published under [Kamon's repository on the Docker Hub](https://hub.docker.com/u/kamon/) and all you
 need as a prerequisite is having `docker`, `docker-compose`, and `make` installed on your machine. The container exposes the following ports:
 
-- `80`: the Grafana web interface.
+- `8082`: the Grafana web interface.
 - `81`: the Graphite web port
 - `2003`: the Graphite data port
 - `8125`: the StatsD port.
